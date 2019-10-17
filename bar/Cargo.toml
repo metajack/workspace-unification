@@ -1,0 +1,9 @@
+[package]
+name = "bar"
+version = "0.1.0"
+authors = ["Jack Moffitt <metajack@fb.com>"]
+edition = "2018"
+
+[features]
+default = []
+fuzzing = []

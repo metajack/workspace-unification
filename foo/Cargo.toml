@@ -1,0 +1,12 @@
+[package]
+name = "foo"
+version = "0.1.0"
+authors = ["Jack Moffitt <metajack@fb.com>"]
+edition = "2018"
+
+[dependencies]
+bar = { path = "../bar" }
+
+[features]
+default = []
+fuzzing = ["bar/fuzzing"]
