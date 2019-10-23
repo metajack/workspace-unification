@@ -7,6 +7,9 @@ edition = "2018"
 [dependencies]
 bar = { path = "../bar" }
 
+[dev-dependencies]
+bar = { path = "../bar", features = ["fuzzing"] }
+
 [features]
 default = []
 fuzzing = ["bar/fuzzing"]

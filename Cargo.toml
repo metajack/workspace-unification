@@ -1,3 +1,2 @@
 [workspace]
 members = ["foo", "bar", "baz"]
-default-members = ["foo", "bar"]

@@ -5,4 +5,6 @@ authors = ["Jack Moffitt <metajack@fb.com>"]
 edition = "2018"
 
 [dependencies]
-foo = { path = "../foo", features = ["fuzzing"] }
+foo = { path = "../foo" }
+bar = { path = "../bar" }
+static_assertions = "1.0.0"
